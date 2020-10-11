@@ -1,0 +1,39 @@
+*
+{
+	margin: 0;
+	padding: 0;
+ 	box-shadow: border-box;
+ 	font-family: sans-serif;
+}
+
+body{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 100vh;
+	background: #07d1ff;
+}
+h1{
+	position: relative;
+	color: #fff;
+	font-size: 10em;
+	line-height: 1.1em;
+	outline: none;
+	text-align: center;
+	user-select: none;
+	transform: rotate(-10deg) skewX(20deg);
+	text-shadow: -1px 1px #cacacaca,
+				-2px 2px #cacacaca,
+				 -3px 3px #cacacaca,
+				 -4px 4px #cacacaca,
+				 -5px 5px #cacacaca,
+				 -6px 6px #cacacaca,
+				 -7px 7px #cacacaca,
+				 -8px 8px #cacacaca,
+				 -9px 9px #cacacaca,
+				 -10px 10px #cacacaca,
+				 -11px 11px #cacacaca,
+				 -12px 12px #cacacaca,
+				 -20px 20px rgba(0,0,0,0.2);
+				 
+}
